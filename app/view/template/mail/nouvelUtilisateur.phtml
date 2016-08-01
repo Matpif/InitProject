@@ -1,6 +1,6 @@
 <html>
 <body>
-Bienvenue sur l'application Paris
+Bienvenue sur l'application
 <br/><br/>
 
 Voici les identifiants pour vous connectez:<br/>
@@ -8,6 +8,6 @@ Mail: <?php echo $params['mail']; ?><br/>
 Mot de passe: <?php echo $params['password']; ?><br/><br/>
 
 Vous pourrez changer votre mot de passe dans votre profil utilisateur une fois connecté.<br/>
-<?php echo 'https:'.ReadIni::getInstance()->getAttribute('general', 'root_url'); ?>
+<?php echo ReadIni::getInstance()->getAttribute('general', 'root_url'); ?>
 </body>
 </html>
